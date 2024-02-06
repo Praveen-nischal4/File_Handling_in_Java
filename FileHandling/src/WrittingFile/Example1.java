@@ -10,7 +10,7 @@ public class Example1 {
 	public static void main(String[] args) throws IOException{
 		String mystr="Hello welcome to the world of java & File handling";
 		
-		  try (FileWriter f = new FileWriter("myFile.txt")) {
+		  try (FileWriter f = new FileWriter("myFile.txt",true)) {      //true is attribute to append
 	            // Write content to file
 	            f.write(mystr);
 	        } catch (IOException e) {

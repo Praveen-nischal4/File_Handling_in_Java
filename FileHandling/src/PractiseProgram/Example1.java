@@ -1,6 +1,6 @@
 //create a file uisng FileOutputStream 
 
-package booksProgram;
+package PractiseProgram;
 import java.io.*;
 
 public class Example1 {

@@ -1,0 +1,1 @@
+Hi this is Farheen i am new to file handling in java 8 please guid me to write data in the file

@@ -12,6 +12,7 @@ public class Example6 {
      FileOutputStream fo =new FileOutputStream("tiger.txt");
      out = new DataOutputStream(fo);
      out.writeInt(256);
+     out.writeBytes("123");
      out.flush();
      System.out.println("Data written successfully");
 		}catch(IOException e)
